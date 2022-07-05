@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: mintcream;
+} /*тіло документа*/
+#wrapper {
+    width: 1100px;
+    margin: 0px auto;
+    background-color: white;
+    box-shadow: 0px 0px 5px silver;
+} /*наповнення сторінки*/
+#header {
+    height: 100px;
+    padding: 20px 30px;
+} /* шапка*/
+#container {
+    display: flex;
+} /*основна частина сайту*/
+#content {
+    width: 770px;
+    height: 640px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} /* основна інформація */
+#sidebar {
+    width: 310px;
+    padding: 30px;
+} /* бокова панель*/
+
+#footer {
+    height: 100px;
+    padding: 0px 30px;
+} /*футер*/
+
+#header h1{
+    font-family: Arial;
+    font-size: 33px;
+    font-weight: lighter;
+} /*Текст в шапці*/
+#header_menu {
+    display: flex;
+    background: linear-gradient(to bottom , silver, black);
+} /*меню в шапці*/
+
+#header_menu a{
+    color: white;
+    padding: 10px 30px;
+    font: 15px Arial;
+    text-decoration: none;
+} /*посилання в меню в шапці*/
+
+#header_menu a:hover, #header_menu a.header_menu_active {
+    background-color: black;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+} /*дії при наведенні на посилання*/
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid silver;
+    border-bottom: none;
+} /*бокове меню сторінки*/
+
+#menu a {
+    padding: 10px;
+    border-bottom: 1px solid silver;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
+} /*посилання в боковому меню*/
+
+#menu a:hover, #menu a.active {
+    background-color: cornsilk;
+    padding-left: 20px;
+} /*дії при наведенні на посилання*/
+
+#first_part{
+    width: 700px;
+    height: 400px;
+    border: 1px solid silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} /*перша частина основної сторінки*/
+
+
+#first_part img {
+    width: 500px;
+    height: 292px;
+    background-size: contain;
+} /*зображення в першій частині*/
+
+#second_part {
+    margin-top: 30px;
+    width: 650px;
+    line-height: 25px;
+} /*друга частина*/
+
+#footer_menu {
+    width: 100%;
+    display: flex;
+    background: silver;
+    flex-direction: row;
+} /*меню в футері*/
+
+#footer_menu a{
+    color: black;
+    padding: 10px 30px;
+    font: 15px Arial;
+    text-decoration: none;
+
+} /*посилання в меню*/
+#footer_menu a:hover, #footer_menu a.footer_menu_active{
+    text-decoration: underline;
+} /*дії при наведенні на посилання*/
+#footer_menu span {
+    align-self: center;
+    margin-left: 370px;
+} /*надпис в меню*/
